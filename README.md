@@ -1,5 +1,11 @@
 # leg
-A new cross platform script programming language
+leg是一种全新的脚本语言
+leg的含义是：like English Language
 
-# "leg" means "like english language"
-To code in leg, programmer only need to know how to speak English!
+# leg核心思想是简单
+leg语法和英语完全相同，要阅读leg代码，只需要有英文基础即可。
+leg的文档也要简单。每份文档不得超过500行，每段最多两行。
+
+#leg是脚本语言
+leg是一种脚本语言，不需要编译，不需要配置开发环境。leg在运行时，需要解释器支持。
+只要有解释器，就可以运行leg。
