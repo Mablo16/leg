@@ -1,0 +1,108 @@
+libraries:
+	OScript's Core.
+	OScript's IO.
+	OScript's DB.
+	OScript's Threading.
+
+space application:
+(
+	class (T)Program from object,Comparable:
+	(
+		start method:
+		(
+			0 to i.				"Wrong"
+			0 to create int i.		"Wrong"
+			create int i=0.			"Suggest"
+			create VPNC:"aaa" to a.	"Suggest"
+			create VPNC:"aaa" to create VPNC a.	"allow"
+			create VPNC a = create VPNC:"bbb". "allow" "classic"
+			create int(3)(4):
+			(
+			
+			) to b.
+
+			create VPNC to a.
+			create VPNB to b.
+			b = a as VPNB.
+			a as VPNB to b.
+
+			create string name.
+			CmdInput to name.
+			CmdOutput:"Hello, "+name.
+			CmdOutput:"Give me a number:".
+			CmdInput as int to i.
+			create int powi.
+			Cauculate's my:i,5 to
+			(
+				value to i.
+				i++.
+				i to powi.
+			)
+			CmdOutput:"It is "+powi.
+			create VPNC:"aaa" to a.
+			create VPNC a.
+			create VPNC:"bbb" to a.
+			VPNController's VPNC's Connect to
+			(
+				switch value:
+				(
+					case VPNState.Su:
+					...break.
+					default:
+					...break.
+				)
+			)
+		)
+	)
+	class Cauculate:
+	(
+		my async method with int i, int b:
+		(
+			create int r=1.
+			r = 6 when i == 1.
+			(
+				r=6.
+			)when i==1 && r==2.
+			foreach var a in array:
+			for b times:
+			(
+				r*=i.
+			)
+			for 3 times:
+				give r.
+			create string s="aaa".
+			give s.
+			return;
+		)
+	)
+)
+space StandLibrary:
+(
+	class Cmd:
+	(
+		"Code in Library".
+	)
+)
+space VPNController:
+(
+	class VPNC:
+	(
+		public VPNC method with string Mystring:
+		(
+		)
+		public enum VPNState:
+		(
+			Su,Un
+		)
+		public async static VPNState Connect method with string VPNName, string VPNPassword:
+		(
+			for 10 times:
+			(
+				....连接....
+				break when ...成功....
+				give VPNState.Un
+			)
+			give VPNState.Su when ........
+		)
+	)
+)
