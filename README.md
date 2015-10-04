@@ -1,7 +1,6 @@
 #leg就是个语言
- =
-leg是一种全新的语言<br>
-leg的含义是：like English Language
+*leg是一种全新的语言<br>
+*leg的含义是：like English Language
 
 # leg核心思想是简单
 leg语法和英语完全相同，要阅读leg代码，只需要有英文基础即可。<br>
