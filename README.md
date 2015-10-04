@@ -1,4 +1,4 @@
- leg就是个语言
+#leg就是个语言
  =========
 leg是一种全新的语言
 leg的含义是：like English Language
