@@ -45,16 +45,16 @@ base,
 dynamic,
 
 #libraries
-用于指定当前几个空间中利用到的leg库
-用法：
-libraries:
-	库1.
-	库2.
-	库3.
-
-示例：
-libraries: 
- 	OScript's Core. 
- 	OScript's IO. 
- 	OScript's DB. 
- 	OScript's Threading. 
+用于指定当前几个空间中利用到的leg库<br>
+用法：<br>
+libraries:<br>
+	库1.<br>
+	库2.<br>
+	库3.<br>
+<br>
+示例：<br>
+libraries:<br> 
+ 	OScript's Core. <br>
+ 	OScript's IO. <br>
+ 	OScript's DB. <br>
+ 	OScript's Threading. <br>
